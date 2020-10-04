@@ -8,14 +8,18 @@ Link: [Custom Object Detecto](https://www.youtube.com/watch?v=zJDUhGL26iU&t=270s
 
 Link: [Google Image Datasets API](https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=segmentation&r=false&c=%2Fm%2F05r5c)
 ---
-First, Download 
+1. Download or clone Train-YOLOv3-Custom-Object-Detector-with-Darknet repository
 
-*We can use simple command to download dataset of different classes*
-command: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclsses 1
+[Link](https://github.com/Siyamdiuswe/Train-YOLOv3-Custom-Object-Detector-with-Darknet)
+
+2. Open command prompt from the directory where you've donwloaded/cloned the repository
+
+3. Then run on the cmd: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclsses 1
+It will download dataset consist of classes that we want.
 
 *Explaination*
-1. --classes Aircraft Weapon:Aircraft and Weapon are classes that we want to download 
-2. --type_csv train : We want training dataset
-3. --limit 1000 : not to download more than 1000 images(For each class)
-4. --multiclsses 1: We want our classes to be in one folder
+- --classes Aircraft Weapon:Aircraft and Weapon are classes that we want to download 
+- --type_csv train : We want training dataset
+- --limit 1000 : not to download more than 1000 images(For each class)
+- --multiclsses 1: We want our classes to be in one folder
 
