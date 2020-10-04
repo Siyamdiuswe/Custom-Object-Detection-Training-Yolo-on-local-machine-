@@ -14,7 +14,7 @@ Link: [Google Image Datasets API](https://storage.googleapis.com/openimages/web/
 
 2. Open command prompt from the directory where you've donwloaded/cloned the repository
 
-3. Then run on the cmd: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclsses 1
+3. Run on the cmd: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclsses 1
 It will download dataset consist of classes that we want.
 
 *Explaination*
@@ -23,3 +23,13 @@ It will download dataset consist of classes that we want.
 - --limit 1000 : not to download more than 1000 images(For each class)
 - --multiclsses 1: We want our classes to be in one folder
 
+Then data will be downloaded in OID/Dataset/train folder
+
+4. Change the class.txt according to the classes of the dataset.For aour case, it was <br>Aircraft<br>Weapon
+
+5. Run python convert_annotations.py . It will create an extra annotation file after each of the image file
+
+6. Copy all data from Aircraft_Weapon folderr and paste them into C:\darknet-master\data\obj folder
+
+*Our dataset creating step is complete*
+---
