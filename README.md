@@ -15,7 +15,7 @@ Link: [Google Image Datasets API](https://storage.googleapis.com/openimages/web/
 
 2. Open command prompt from the directory where you've donwloaded/cloned the repository
 
-3. Run on the cmd: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclsses 1
+3. Run on the cmd: python main.py downloader --classes Aircraft Weapon --type_csv train --limit 1000 --multiclasses 1
 It will download dataset consist of classes that we want.
 
 *Explaination*
