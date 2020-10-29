@@ -49,7 +49,7 @@ Editing part:
 
 3. GO to the data folders and make a file named obj.names and edit and save them accordingly(We've changes Airchraft and weapon class to Car and food classes.You have to change accorging you classes)          <br>Car<br>Food<br>
 
-4. Then make a file named obj.name and edit and save them accordingly     <br>classes = 2<br>train = C:/darknet-master/data/train.txt<br>validation = C:/darknet-master/data/test.txt<br>names = C:/darknet-master/data/obj.names<br>backup = C:/darknet-master/backup/<br>
+4. Then make a file named obj.data and edit and save them accordingly     <br>classes = 2<br>train = C:/darknet-master/data/train.txt<br>validation = C:/darknet-master/data/test.txt<br>names = C:/darknet-master/data/obj.names<br>backup = C:/darknet-master/backup/<br>
 
 5. Make a backup file in the darknet directory
 
